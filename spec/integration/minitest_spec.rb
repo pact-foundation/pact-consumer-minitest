@@ -1,7 +1,7 @@
 require './spec/support/client.rb'
 
-require 'minitest'
 require 'minitest/autorun'
+require 'minitest'
 require 'pact/consumer/minitest'
 
 Pact.service_consumer "My Service Consumer" do
