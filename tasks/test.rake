@@ -5,7 +5,7 @@ Rake::TestTask.new(:test) do |t|
 end
 
 Rake::TestTask.new (:integration) do |t|
-  t.pattern = "spec/integration/**/*_spec.rb"
+  t.pattern = "spec/integration/**/*.rb"
 end
 
 namespace :pact do
