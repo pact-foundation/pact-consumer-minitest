@@ -1,6 +1,6 @@
 # Pact::Consumer::Minitest
 
-Provides Pact Consumer support for Minitest.
+Provides [Pact](https://github.com/realestate-com-au/pact) Consumer support for Minitest.
 
 ## Installation
 
