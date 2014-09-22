@@ -36,6 +36,8 @@ module Pact
   end
 end
 
-Minitest.after_run do
+after_suite_hook = Minitest.respond_to?(:after_run) ? :after_run : :after_tests
+
+Minitest.send(after_suite_hook) do
   Pact::Consumer::Minitest.pact_spec_hooks.after_suite
 end
