@@ -1,4 +1,5 @@
-require "pact/consumer/minitest/version"
+require 'minitest'
+require 'pact/consumer/minitest/version'
 require 'pact/consumer'
 require 'pact/consumer/spec_hooks'
 
