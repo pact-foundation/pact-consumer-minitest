@@ -1,7 +1,7 @@
 require "minitest/autorun"
 require 'minitest'
 require 'pact/consumer/minitest'
-require 'mocha/mini_test'
+require 'mocha/minitest'
 require './spec/support/test'
 
 describe Pact::Consumer::Minitest do
