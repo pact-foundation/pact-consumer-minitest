@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-See the README for the [pact](https://github.com/realestate-com-au/pact) gem for full instructions on how to use Pact.
+See the README for the [pact](https://github.com/pact-foundation/pact-ruby) gem for full instructions on how to use Pact.
 
 To use Pact with Minitest, instead of requiring `"pact/consumer/rspec"`, require `"pact/consumer/minitest"` and include `Pact::Consumer::Minitest` in your spec or unit test.
 
