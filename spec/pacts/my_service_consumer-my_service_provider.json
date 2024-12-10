@@ -8,7 +8,7 @@
   "interactions": [
     {
       "description": "a request for something",
-      "provider_state": "something exists",
+      "providerState": "something exists",
       "request": {
         "method": "get",
         "path": "/something",
@@ -26,6 +26,8 @@
     }
   ],
   "metadata": {
-    "pactSpecificationVersion": "1.0.0"
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
   }
 }
