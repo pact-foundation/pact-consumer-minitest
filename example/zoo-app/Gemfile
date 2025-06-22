@@ -8,5 +8,5 @@ end
 
 gem 'rake'
 gem 'rack', '~>1.5.2'
-gem 'json', '~>1.6.8'
+gem 'json', '~>1.8.0'
 gem 'httparty'
